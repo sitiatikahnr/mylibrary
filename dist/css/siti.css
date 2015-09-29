@@ -1,0 +1,98 @@
+@font-face{
+	font-family: 'Kaushan';
+	src: url('../fonts/kaushanscript-regular-webfont.eot');
+	src: url('../fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/kaushanscript-regular-webfont.svg#kaushanregular') format('svg'),
+		 url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
+		 url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Courgete';
+	src: url('../fonts/courgette-regular-webfont.eot');
+	src: url('../fonts/courgette-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/courgette-regular-webfont.woff') format('woff'),
+		 url('../fonts/courgette-regular-webfont.woff2') format('woff2'),
+		 url('../fonts/courgette-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/courgette-regular-webfont.svg#courgetteregular') format('svg');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.courgete{
+	font-family: 'Courgete';
+}
+
+.kaushan{
+	font-family: 'Kaushan';
+}
+
+.small{
+	font-size: 15px;
+}
+
+.medium{
+	font-size: 24px;
+}
+
+.large{
+	font-size: 50px;
+}
+.header{
+	margin-top: -20px;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.menu-nav{
+	background-color: #fff;
+	padding-left: 25px;
+	padding-right:35px;
+}
+
+.menu{
+	text-decoration: none !important;
+	font-color: #000 !important;
+	margin-top: 10px;
+}
+
+.img-perpus{
+	width: 450px;
+	height: 320px;
+	padding-top: 80px;
+}
+
+.rev-book{
+	width: 140px;
+	height: 220px;
+}
+
+.crem{
+	color: #f5efe2;
+
+}
+
+.coklat{
+	color: #755327 !important;
+}
+
+.lightbrown{
+	color: #d6BA83;
+}
+
+.hitam{
+	color: #140b07;
+}
+
+.desc{
+	min-height: 220px;
+	background-color: #f5efe2;
+	margin-left: -55px;
+}
