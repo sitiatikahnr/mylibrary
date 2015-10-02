@@ -23,6 +23,10 @@
 	font-style: normal;
 }
 
+body{
+	margin: 0;
+	padding: 0;
+}
 
 .courgete{
 	font-family: 'Courgete';
@@ -45,22 +49,27 @@
 }
 .header{
 	margin-top: -20px;
-	min-height: 500px;
+	min-height: 550px;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position: center;
+	padding: 0px;
 }
 
 .menu-nav{
 	background-color: #fff;
 	padding-left: 25px;
-	padding-right:35px;
 }
 
 .menu{
-	text-decoration: none !important;
-	font-color: #000 !important;
 	margin-top: 10px;
+	font-family: 'Courgete';
+	font-size: 18px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #000;
 }
 
 .img-perpus{
@@ -95,4 +104,39 @@
 	min-height: 220px;
 	background-color: #f5efe2;
 	margin-left: -55px;
+}
+
+.motto{
+	border: 2px dotted #fff;
+	padding: 20px;
+	margin-top: 150px;
+}
+
+.slogan{
+	background-color: #fff;
+	margin: 0px;
+	padding: 10px;
+}
+
+.footer{
+	min-height: 200px;
+	background-color: #140b07;
+	margin-top: 40px;
+}
+
+.rating a{
+	margin-left: 30px;
+	margin-top: 10px;
+	border-radius: 2px;
+	padding: 10px 8px;
+	background-color: #755327;
+	color: #f5efe2;
+	text-decoration: none;
+	transition: all 0.8s easy;
+}
+
+.rating a:hover{
+	background-color: #f5efe2;
+	border-color: #000;
+	color: #755327;
 }
