@@ -1,0 +1,174 @@
+@font-face{
+	font-family: "Kaushan";
+	src: url('../fonts/kaushanscript-regular-webfont.eot');
+	src: url('../fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/kaushanscript-regular-webfont.svg#kaushanregular') format('svg'),
+		 url('../fonts/kaushanscript-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
+		 url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Courgette";
+	src: url('../fonts/courgette-regular-webfont.eot');
+	src: url('../fonts/courgette-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/courgette-regular-webfont.svg#courgetteregular') format('svg'),
+		 url('../fonts/courgette-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/courgette-regular-webfont.woff') format('woff'),
+		 url('../fonts/courgette-regular-webfont.woff2') format('woff2');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url('../fonts/Lato-Regular.eot');
+	src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Lato-Regular.ttf') format('truetype'),
+		 url('../fonts/Lato-Regular.woff') format('woff'),
+		 url('../fonts/Lato-Regular.woff2') format('woff2');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+.kaushan{
+	font-family: "kaushan";
+}
+
+.courgette{
+	font-family: "courgette";
+}
+
+.latto{
+	font-family: "Lato";
+}
+
+.small{
+	font-size: 16px;
+}
+
+.medium{
+	font-size: 24px;
+}
+
+.large{
+	font-size: 50px;
+}
+
+.nav-menu{
+	background-color: #fff;
+}
+
+.nav-menu a{
+	text-decoration: none;
+	color: #140b07;
+}
+
+.nav-image{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	min-height: 600px;
+}
+
+.box-tagline{
+	border: 2px dotted #fff;
+	padding: 20px;
+	margin-top: 250px;
+}
+
+.tagline{
+	background-color: #fff;
+	margin: 0px;
+	padding: 10px;
+}
+
+.title{
+	margin-top: 20px;
+}
+
+.brown{
+	color: #755327;
+}
+
+.lightbrown{
+	color: #d6ba83;
+}
+
+.crem{
+	color: #f5efe2;
+}
+
+.black{
+	color: #140b07;
+}
+
+.rev-book{
+	width: 200px;
+	height: 300px;
+}
+
+.review{
+	background-color: #f5efe2;
+	width: 300px;
+	min-height: 300px;
+	margin-left: -5px;
+}
+
+.top{
+	width: 150px;
+	height: 250px;
+}
+
+.btn a{
+	background-color: #755327;
+	border-radius: 2px;
+	color: #fff;
+	padding: 10px 8px;
+	text-decoration: none;
+	transition: all 0.5s easy;
+}
+
+.btn a:hover{
+	background-color: #f5efe2;
+	color: #755327;
+	border: 1px solid #755327;
+}
+
+.kategori{
+	min-height: 100px;
+	background-color: #d6ba83;
+	width: 1200px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+
+.kategori a{
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s easy;
+	vertical-align: center;
+}
+
+.katgori a:hover{
+	background-color: #755327;
+	color: #fff;
+}
+
+.footer{
+	min-height: 250px;
+	background-color: #140b07;
+	color: #fff;
+	padding-left: 50px;
+	padding-top: 70px;
+	font-size: 12px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
