@@ -72,13 +72,13 @@
 .nav-image{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	min-height: 600px;
+	min-height: 500px;
 }
 
 .box-tagline{
 	border: 2px dotted #fff;
 	padding: 20px;
-	margin-top: 250px;
+	margin-top: 200px;
 }
 
 .tagline{
